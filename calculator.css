@@ -1,0 +1,54 @@
+
+table{
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+    padding: 300px 500px;
+    margin-top:10%;
+    margin-left: 20%;
+}
+body{
+    background-color:darkslategray
+}
+.btn {
+    width: 150px;
+    height: 150px;
+    font-size: 1.5em;
+    transition: width 1s, height 1s;
+}
+.button{
+    border: 1px solid black;
+    background-color:khaki;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-left:1px;
+    margin-bottom:1px ;   
+    transition: all 1s;
+}
+.button2{
+    border: 1px solid black;
+    background-color:dimgray ;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-left:1px;
+    margin-bottom:1px ;
+    transition: all 1s;
+}
+button:hover{
+    background-color: darkcyan;
+    transition: all 2s;
+    box-shadow: 3px 3px rgb(35, 37, 38);
+}
+input{
+    border: none;
+}
+.border2{
+    border-radius: 5px;
+}
+.border1{
+    border-radius: 0px 10px 10px 0px
+}
+.border3{
+    border-radius:10px 0px 0px 10px
+}
+
+
